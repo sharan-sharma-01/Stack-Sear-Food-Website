@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delicious Burger</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="one.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="logo"
+          alt="website logo"
+          src="pics\logo-01.png"
+          style="width: 280px; height: auto; margin-top: 1rem"
+        />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">How it works</a></li>
+          <li><a class="main-nav-link" href="#">Products</a></li>
+          <li><a class="main-nav-link" href="#">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="leaf-container">
+            <img src="pics\leaf.png" class="leaf" />
+            <img src="pics\leaf.png" class="leaf delay-1" />
+            <img src="pics\leaf.png" class="leaf delay-2" />
+          </div>
+
+          <div class="hero-img-box">
+            <img src="pics\burger logo.png" class="hero-img" alt="Burger" />
+          </div>
+
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Deliciously Fast. Surprisingly Fresh.
+            </h1>
+            <p class="hero-description">
+              The smart, 365-days-a-year fast food subscription that brings your
+              favorites right to your door — hot, fast, and tailored to your
+              cravings
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm"
+              >Start eating well!</a
+            >
+            <a href="#" class="btn btn--outline">Learn more ↓</a>
+
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="pics\customer1.jpeg" alt="Customer" />
+                <img src="pics\customer2.webp" alt="Customer" />
+                <img src="pics\customer3.jpeg" alt="Customer" />
+                <img src="pics\customer4.jpeg" alt="Customer" />
+                <img src="pics\customer5.jpeg" alt="Customer" />
+                <img src="pics\customer6.jpeg" alt="Customer" />
+              </div>
+              <p class="delivered-text">
+                <span>320,000+</span> meals delivered last year!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="empty"></section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
